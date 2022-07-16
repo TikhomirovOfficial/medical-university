@@ -1,0 +1,121 @@
+footer {
+    background: #E5C78C;
+    font-family: "PT Sans";
+}
+.footer-nav {
+    margin-top: 41px;
+    margin-bottom: 50px;
+}
+.footer-item-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+.footer-item-content {
+    align-items: start;
+}
+.footer-item-text {
+    margin-left: 10px;
+    width: 335px;
+    margin-bottom: 23px;
+}
+.footer-item-img {
+    margin-top: 6px;
+}
+#email-footer {
+    text-decoration: underline;
+}
+#footer-middle-item {
+    margin-left: 81px;
+    margin-right: 287px;
+    width: 160px;
+}
+.footer-links {
+    gap: 48px;
+    margin-top: 22px;
+}
+.footer-hr {
+   border: 1px white solid;
+}
+.footer-copyright > p {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 13px;
+}
+ .footer-copyright > p > img{
+  margin-bottom: 3px;
+}
+@media (max-width: 1199px) {
+    #footer-middle-item {
+        margin-left: 50px;
+        margin-right: 150px;
+        width: 160px;
+    }
+}
+@media (max-width: 1084px) {
+    #footer-middle-item {
+        margin-left: 30px;
+        margin-right: 110px;
+        width: 160px;
+    }
+}
+@media (max-width: 991px) {
+    .footer-nav {
+        flex-direction: column;
+    }
+    #footer-middle-item {
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 160px;
+    }
+    .footer-item-content {
+        align-items: start;
+    }
+    .footer-nav-item {
+        margin-top: 25px;
+    }
+}
+
+.phone-footer-m {
+    display: none;
+}
+.mobile-footer-email {
+    display: none;
+}
+@media (max-width: 518px) {
+    .footer-copyright {
+        font-size: 12px;
+
+    }
+    .footer-hm {
+        display: none !important;
+    }
+    .phone-footer-m {
+        display: block;
+    }
+    .mobile-footer-email {
+        display: block;
+    }
+    .footer-copyright > p {
+        text-align: start;
+    }
+    .mobile-footer-email {
+        display:  flex;
+        align-items: center;
+    }
+    #email-footer-m {
+        margin-bottom: 0px;
+    }
+    #phone-footer-m {
+        margin-bottom: 0px;
+    }
+    .phone-footer-m {
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+    .footer-links {
+        gap: 38px;
+    }
+}
+
+

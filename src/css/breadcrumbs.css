@@ -1,0 +1,16 @@
+.breadcrumbs {
+    font-size: 14px;
+    gap: 7px;
+}
+.bread-item {
+    color: #1D1D1B;
+}
+.last-bread {
+    color: #078877;
+}
+.bread-item:hover {
+    color: #1D1D1B;
+}
+.last-bread:hover {
+    color: #078877;
+}

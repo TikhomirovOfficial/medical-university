@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Сведения</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./src/css/info.css">
+    <link rel="stylesheet" href="./src/css/breadcrumbs.css">
+    <link rel="stylesheet" href="./src/css/footer.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <script src="./src/js/jquery-3.5.1.js"></script>
+
+</head>
+<body>
+<div class="header-mobile">
+
+</div>
+<div class="content d-flex">
+    <div class="menu">
+
+        <img src="./src/img/info_logo.png" alt="" class="info_logo">
+        <div class="info-menu-content">
+            <div class="info-address d-flex">
+                <i class="bi bi-geo-alt-fill"></i>
+                <p class="info-address-text">
+                    400131, Россия, г. Волгоград,
+                    площадь Павших Борцов, д. 1
+                </p>
+
+            </div>
+            <div class="info-phone">
+                <i class="bi bi-telephone-fill"></i>
+                <span class="phone-text">
+                +7 (8442) 38-50-05
+            </span>
+            </div>
+            <div class="info-email d-flex">
+                <img height="21" width="21" src="./src/img/email.svg" alt="">
+                <a href="mailto:info@post@volgmed.ru" class="email-text">post@volgmed.ru</a>
+            </div>
+        </div>
+        <div class="info-nav">
+            <div class="info-modal-menu " id="modal">
+                <div class="close-menu-info d-flex">
+                    <img src="./src/img/close_menu.svg" alt="" class="close-menu">
+                </div>
+                <div class="info-modal-nav">
+                    <ul>
+                        <li class="modal-nav-item"><a href="">Руководство университета</a></li>
+                        <li class="modal-nav-item"><a href="">Ученый совет</a></li>
+                        <li class="modal-nav-item"><a href="">Музей</a></li>
+                        <li class="modal-nav-item"><a href="">Библиотека</a></li>
+                        <li class="modal-nav-item modal-nav-item-last"><a href="">Управление информационного развития</a></li>
+                    </ul>
+                </div>
+            </div>
+                <div class="info-nav-item">УНИВЕРСИТЕТ
+
+                </div>
+                <div class="info-nav-item">ОБРАЗОВАНИЕ</div>
+                <div class="info-nav-item">МЕДИЦИНА</div>
+                <div class="info-nav-item">НАУКА</div>
+                <div class="info-nav-item last-info-item">МЕЖДУНАРОДНАЯ ДЕЯТЕЛЬНОСТЬ</div>
+
+        </div>
+        <form action="" class="info-form">
+            <div class="input-block">
+                <input type="text" class="info-input" placeholder="Поиск">
+                <button  class="info-search">
+                    <img src="./src/img/info_search.svg" alt="">
+                </button>
+            </div>
+
+        </form>
+    </div>
+    <div class="modal_call"></div>
+    <div class="main-content">
+        <header class="d-flex header ">
+            <div class="modal_call">
+                <div class="modal_body">
+                    <div class="modal_content">
+                        <div class="close_modal">
+                            <div class="close_modal-item">
+                                <img src="./src/img/close_modal.svg" alt="" class="close_modal-btn">
+                            </div>
+                        </div>
+                        <div class="choose_modal d-flex">
+                            <h2 class="choose_modal-item" id="auth">
+                                Вход
+                            </h2>
+                            <h2 class="choose_modal-item" id="register">
+                                Регистрация
+                            </h2>
+                        </div>
+                        <div class="modal-form-block" id="form-auth">
+                            <form action="" class="modal_form">
+                                <input required type="text" class="modal-form-input" placeholder="Логин">
+                                <input required type="password" class="modal-form-input" placeholder="Пароль">
+                                <button class="enter_modal">
+                                    Вход
+                                </button>
+                            </form>
+                        </div>
+                        <div class="modal-form-block " id="form-register">
+                            <form action="" class="modal_form">
+                                <input type="text" required class="modal-form-input" placeholder="Ваше имя">
+                                <input type="email" required class="modal-form-input" placeholder="Ваш e-mail">
+                                <input type="tel" required class="modal-form-input" placeholder="Ваш телефон">
+                                <button type="submit" class="enter_modal">
+                                    Вход
+                                </button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="info-navbar d-flex">
+                <div class="info-navbar-item">АБИТУРИЕНТУ
+                    <img src="./src/img/chevdown.png" alt="">
+                    <ul class="info-drop-nav d-flex ">
+                        <li class="info-drop-nav-item abitur">
+                            <a href="">Приемная комиссия</a>
+                            <a href="">Центр дополнительного образования</a>
+
+                        </li>
+                    </ul>
+                </div>
+                <div class="info-navbar-item">
+                    ОБУЧАЮЩЕМУСЯ
+                    <img src="./src/img/chevdown.png" alt="">
+
+                </div>
+                <div class="info-navbar-item">
+                    РАБОТНИКУ
+                    <img src="./src/img/chevdown.png" alt="">
+                </div>
+                <div class="info-navbar-item last-nav">
+                    ВЫПУСКНИКУ
+                    <img src="./src/img/chevdown.png" alt="">
+                </div>
+            </div>
+            <div class="info-btns d-flex">
+                <div class="info-special d-flex ">
+                    <img width="22" src="./src/img/mycab.svg" class="info-nav-mycab">
+                    <span class="info-nav-translate">EN</span>
+                </div>
+                <div class="vision d-flex">
+                    <i class="bi bi-eye-fill"></i>
+                </div>
+            </div>
+        </header>
+        <section class="info-content">
+            <div class="container container-big">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="breadcrumbs d-flex">
+
+                            <a href="." class="bread-item">Главная</a>
+                            <span><img src="./src/img/breadsplit.svg" alt=""></span>
+                            <a href="" class="bread-item last-bread">Сведения</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-9">
+                        <div class="nav-buttons d-flex">
+                            <a href="" class="nav-button">Руководство университета</a>
+                            <a href="" class="nav-button">Ученый совет</a>
+                            <a href="" class="nav-button">Музей</a>
+                            <a href="" class="nav-button">Библиотека</a>
+                            <a href="" class="nav-button">Управление информационного развития</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="info-title">
+                            Сведения о ВолгГМУ
+                        </h1>
+                        <div class="info-text-content">
+                            <p class="info-text-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget leo eu massa pulvinar eleifend vel at eros. Vestibulum non mi et lorem egestas facilisis. Praesent feugiat odio sit amet eleifend elementum. Curabitur tincidunt vel nunc a malesuada. In rutrum a nunc a auctor. Proin convallis massa dui, non porta lectus tristique porta. Sed diam tellus, facilisis ut metus a, euismod finibus enim. Morbi convallis consequat risus, vitae varius metus tincidunt sed. Suspendisse ac velit tempus, ornare quam at, posuere lectus. Donec dictum molestie nisi mollis iaculis. Curabitur gravida fringilla ultricies. Aliquam vestibulum massa lectus, et condimentum orci viverra non. Mauris id velit ut purus consequat gravida at accumsan lacus. Suspendisse potenti. Donec ac lectus nec tellus blandit sodales.
+                            </p>
+                            <p class="info-text-item">Vestibulum quis eros varius, bibendum neque in, pretium nunc. Pellentesque mollis ante eget nulla volutpat, vitae ullamcorper quam aliquet. Proin ac sem ut risus sodales feugiat. Ut semper turpis blandit, vulputate massa et, luctus mauris. Donec in est sit amet magna consectetur consectetur. Sed rutrum dapibus arcu at efficitur. Sed aliquam lectus diam, nec imperdiet ex gravida tempus. Cras dolor lectus, euismod ut facilisis eu, semper sit amet libero. Vivamus magna risus, ullamcorper feugiat risus et, tempor elementum nisl. Morbi ornare hendrerit lacus. Integer convallis, turpis vitae scelerisque bibendum, orci dolor luctus sapien, ut malesuada ipsum magna id urna. In hac habitasse platea dictumst. Donec rhoncus sodales leo, sed imperdiet nibh sodales sit amet.
+                            </p>
+                            <p class="info-text-item">Maecenas ullamcorper felis tincidunt sodales ullamcorper. Sed lorem erat, molestie nec semper at, luctus sit amet ante. Etiam ut dolor luctus, malesuada mauris mollis, faucibus nunc. Phasellus malesuada sagittis luctus. Mauris euismod ipsum condimentum sapien ullamcorper lobortis. Quisque semper, massa ac sodales gravida, mi urna venenatis est, nec ultricies sem leo sit amet elit. Quisque vitae sodales dui, eu iaculis est.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row row-img">
+                    <div class="col-lg-8 m-auto col-img">
+                        <div class="info-images d-flex">
+                            <img src="./src/img/info_img_f.png" alt="" class="info-image">
+                            <img src="./src/img/info_img_s.png" alt="" class="info-image" id="info-img-second">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="info-text-item">
+                            Quisque vitae orci nec odio eleifend porta nec id lectus. Maecenas efficitur pellentesque ante. Vivamus rhoncus lobortis mauris sit amet pretium. Aenean leo mi, dictum auctor velit in, congue gravida libero. Ut quis arcu laoreet, luctus lacus quis, vehicula dui. Sed et dictum mauris, non dapibus nibh. Phasellus non dolor et mauris ultricies eleifend. Nam ultricies leo nec diam egestas vulputate. In non metus sollicitudin, sagittis orci sed, efficitur turpis. Morbi nibh odio, fringilla sit amet tempor eget, congue ut arcu. Maecenas facilisis eu sapien eu pellentesque. Sed luctus eu odio nec facilisis. Nunc non tellus at ante commodo malesuada a vel tortor.
+                        </p>
+                        <p class="info-text-item">
+                            Vestibulum convallis mollis tortor id posuere. Donec sed urna ac metus congue fermentum. Etiam lacinia libero id purus pulvinar, vel auctor nibh sollicitudin. Aliquam consectetur laoreet libero, ut vestibulum orci. Nunc rutrum metus vitae lorem tempor, sed vestibulum sapien lacinia. Vestibulum pretium purus non turpis scelerisque, non volutpat dui molestie. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam dictum feugiat mi, in fermentum lorem posuere non. Donec libero justo, eleifend vehicula sodales in, imperdiet eget est. Donec fringilla tellus ut lorem pretium, id feugiat quam vestibulum. Sed urna nisl, pretium tempor libero sit amet, dignissim pharetra est. Etiam eleifend dui dolor, non porta nisi tristique in. Sed aliquet, ante aliquet placerat pulvinar, erat enim maximus mi, id lacinia mi odio id ipsum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+    </div>
+</div>
+<footer></footer>
+</body>
+<script src="./src/js/modal_call.js"></script>
+<script src="./src/js/header_mobile.js" ></script>
+<script src="./src/js/footer.js" ></script>
+<script src="./src/js/modal.js"></script>
+<script src="./src/js/header_mobile.js" ></script>
+<script>
+    $('.mobile-nav-item').hover(function (e) {
+        $(e.currentTarget).children('.mobile-nav-text')
+            .children('span').children('i')
+            .addClass('bi-chevron-up')
+    })
+    $('.mobile-nav-item').mouseleave(function (e) {
+        $(e.currentTarget).children('.mobile-nav-text')
+            .children('span').children('i')
+            .removeClass('bi-chevron-up')
+    })
+    $('.mobile_auth').click(function () {
+        $('.modal_call').css({"display" : "block", "z-index": "9999"})
+        if (!$('#register').hasClass('choose_modal-active')) {
+            $('#auth').addClass('choose_modal-active')
+        }
+    })
+
+    $('section ').click(function () {
+        $('.modal-mobile').css({
+            "visibility":"hidden"
+        })
+    })
+    $('.burger-menu').click(function () {
+        $('.modal-mobile').css({
+            "visibility":"visible"
+
+        })
+
+    })
+</script>
+
+</html>
